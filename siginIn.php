@@ -23,8 +23,18 @@
     <form class="form-signin" role="form">
     <h2 class="class form-signin-heading">Please sign in</h2>
     <label for="inputEmail" class="sr-only">Email Address</label>
-    </form>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <label for="inputPassword" class="sr-only">Email Address</label>
+    <input type="email" id="inputPassword" class="form-control" placeholder="Password" required>
+    <div class="checkbox">
+    <label>
+      <input type="checkbox" value="remember-me">Remember Me
+    </label>
     </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+
+    </div> <!-- container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11/jquery.min.js"></script>
